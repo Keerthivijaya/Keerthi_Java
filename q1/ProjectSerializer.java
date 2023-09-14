@@ -36,10 +36,11 @@ public class ProjectSerializer {
 System.out.println("the project");
                 System.out.println( project);
                 System.out.println("Has the following Employees..........");
+		System.out.print("[");
                 for (Employee employee : employees) {
                 	 
-                    System.out.println("  Employee" + employee);
-                }
+                    System.out.println(" Employee  " + employee);
+                }System.out.println("]");
             }
         } else {
             System.out.println("Map is null.");
